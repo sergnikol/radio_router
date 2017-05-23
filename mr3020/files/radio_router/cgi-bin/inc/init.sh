@@ -1,0 +1,1 @@
+DIR=$(dirname "$0")
