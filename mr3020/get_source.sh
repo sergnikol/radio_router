@@ -10,3 +10,6 @@ cd ..
 ./scripts/feeds install alsa-utils
 ./scripts/feeds install madplay
 ./scripts/feeds install wget
+rm -rf openwrt/.config
+ln -s ../.config openwrt/.config
+ln -s ../files openwrt/files
