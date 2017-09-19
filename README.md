@@ -29,7 +29,7 @@ cat /radio_router/etc/crontabs/root  >> /etc/crontabs/root
 /etc/init.d/cron enable
 /etc/init.d/cron restart
 
-ln -s /radio_router/etc/init.d/radio  /etc/init.d/radio restart
+ln -s /radio_router/etc/init.d/radio  /etc/init.d/radio 
 /etc/init.d/radio enable
 /etc/init.d/radio start
 ```
