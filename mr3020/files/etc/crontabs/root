@@ -1,1 +1,0 @@
-*/1 * * * *  /radio_router/cgi-bin/sh/cron_play.sh > /dev/null 2>&1
