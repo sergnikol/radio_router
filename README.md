@@ -10,7 +10,7 @@ opkg update
 opkg install kmod-usb-audio
 opkg install alsa-utils
 opkg install madplay
-opkg install wget
+opkg install wget-nossl
 opkg install git-http
 
 
@@ -37,4 +37,9 @@ ln -s /radio_router/etc/init.d/radio  /etc/init.d/radio
 ```
 reboot
 ```
+LUCI
 http://IP_YOUR_ROUTER:81
+
+
+RADIO ROUTER 
+http://IP_YOUR_ROUTER
