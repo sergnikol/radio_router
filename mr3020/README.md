@@ -1,7 +1,7 @@
 # radio_router
 15.05 webradio 3020 not working
 На 14.07 working!!!
-
+```
 git clone -b barrier_breaker git://github.com/openwrt/openwrt.git
 cd openwrt
 mkdir dl
@@ -14,7 +14,7 @@ cd ..
 ./scripts/feeds install madplay 
 ./scripts/feeds install wget
 
-
+```
 Make menuconfig
 
 Target Profile (TP-LINK TL-MR3020)  --->
