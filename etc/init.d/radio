@@ -1,0 +1,21 @@
+#!/bin/sh /etc/rc.common
+
+START=99
+STOP=95
+
+start() {        
+    echo "Start internet radio"
+    /radio_router/cgi-bin/sh/cron_play.sh
+}                 
+                  
+stop() {          
+    echo "Stop internet radio"
+    source "/radio_router/cgi-bin/inc/stop.sh"
+}
+boot() {          
+    /radio_router/cgi-bin/sh/init_dev.sh
+    SOUND_VOL=`/bin/cat /radio_router/cgi-bin/db/sound_vol`
+    amixer set Speaker $SOUND_VOL
+    sleep 5
+    /radio_router/cgi-bin/sh/cron_play.sh
+}
