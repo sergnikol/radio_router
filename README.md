@@ -12,8 +12,9 @@ opkg install alsa-utils
 opkg install madplay
 opkg install wget
 opkg install git-http
-cd /
 
+
+cd /
 git clone --depth=1 -b gl6416 https://github.com/sergnikol/radio_router.git
 
 uci set uhttpd.main.listen_http='0.0.0.0:81' 
