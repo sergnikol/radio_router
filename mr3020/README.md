@@ -37,7 +37,9 @@ Network->odhcp6c->< >
 Network->ppp->< >
 
 Kernel modules->Netfilter Extensions->kmod-ip6tables< >
+
 //Kernel modules->Netfilter Extensions->kmod-nf-ipt6 < >
+
 //Kernel modules->Netfilter Extensions->kmod-nf-conntrack6 < >
 
 Kernel modules->Network support -> kmod-ipv6->< >
