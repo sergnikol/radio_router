@@ -23,6 +23,7 @@ Global build settings->Enable IPv6 support in packages->< >
 
 Global build settings->Remove ipkg/opkg status data files in final images->[*]
 
+
 Base system->busybox->Networking utilities->Enabled IPv6 support< >
 
 Base system->busybox->Networking utilities->wget< >
