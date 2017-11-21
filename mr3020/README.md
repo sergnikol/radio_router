@@ -25,11 +25,15 @@ Global build settings->Remove ipkg/opkg status data files in final images->[*]
 Base system->busybox->Networking utilities->Enabled IPv6 support< >
 
 Base system->busybox->Networking utilities->wget< >
+
 Base system->opkg->< >
 
 Network->File Transfer ->wget-nossl<*>
+
 Network->Web Servers/Proxies->uhttpd-><*>
+
 Network->odhcp6c->< >
+
 Network->ppp->< >
 
 Kernel modules->Netfilter Extensions->kmod-ip6tables< >
@@ -37,12 +41,15 @@ Kernel modules->Netfilter Extensions->kmod-ip6tables< >
 //Kernel modules->Netfilter Extensions->kmod-nf-conntrack6 < >
 
 Kernel modules->Network support -> kmod-ipv6->< >
+
 Kernel modules->Network support -> kmod-ppp->< >
 
 Kernel modules -> Sound Support->kmod-sound-core-><*>
+
 Kernel modules -> Sound Support->kmod-usb-audio-><*>
 
 Libraries->Firewall->libip6tc< >
 
 Sound->madplay-><*>
+
 Utilities->alsa-utils-><*>
