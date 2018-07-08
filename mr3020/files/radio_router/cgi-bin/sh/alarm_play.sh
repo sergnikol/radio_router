@@ -1,4 +1,5 @@
 #!/bin/sh
+amixer set Speaker 4
 PID=`ps | grep madplay | grep -v grep | wc -l | awk '{ print $1 }'`
 SCRIPT=$(readlink -f "$0")
 DIR_START=`dirname $(dirname "$SCRIPT")`
