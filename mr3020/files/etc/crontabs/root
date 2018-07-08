@@ -1,2 +1,4 @@
 0 2 * * * /radio_router/cgi-bin/sh/get_sunrise_sunset.sh
 */1 * * * *  /radio_router/cgi-bin/sh/cron_play.sh > /dev/null 2>&1
+38 20 * * * /radio_router/cgi-bin/sh/alarm_stop.sh > /dev/null 2>&1 #Sun Jul  8 23:16:48 EEST 2018
+#52 04 * * * /radio_router/cgi-bin/sh/alarm_play.sh > /dev/null 2>&1 #Sun Jul  8 23:16:48 EEST 2018
